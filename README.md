@@ -7,7 +7,15 @@ typing speed using ASCII documents provided by the user.
 
 Requirements
 ------------
-In order to build `tt` you need `ncurses`.
+In order to build `tt` you need `gcc`, `make`, `ncurses`.
+
+**Debian/Ubuntu** (if necessary as root):
+        
+    apt install gcc make libncurses-dev
+
+**CentOS/RHEL/Fedora** (if necessary as root):
+        
+    yum install gcc make ncurses-devel
 
 Installation
 ------------
